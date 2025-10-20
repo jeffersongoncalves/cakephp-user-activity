@@ -1,0 +1,43 @@
+{
+  "name": "jeffersonsimaogoncalves/cakephp-user-activity",
+  "description": "CakePHP 3 UserActivity Logging plugin",
+  "type": "cakephp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "cakephp3",
+    "crabstudio",
+    "user activity logging"
+  ],
+  "authors": [
+    {
+      "name": "anhtuank7c",
+      "email": "anhtuank7c@hotmail.com",
+      "homepage": "http://crabstudio.info"
+    },
+    {
+      "name": "Jefferson Simão Gonçalves",
+      "homepage": "https://github.com/jeffersonsimaogoncalves"
+    }
+  ],
+  "support": {
+    "email": "gerson.simao.92@gmail.com",
+    "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-user-activity/issues",
+    "source": "https://github.com/jeffersonsimaogoncalves/cakephp-user-activity"
+  },
+  "require": {
+    "php": ">=7",
+    "cakephp/cakephp": "^3.6",
+    "ext-json": "@stable"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "cakephp/migrations": "1.8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "JeffersonSimaoGoncalves\\UserActivity\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
